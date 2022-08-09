@@ -92,7 +92,7 @@ const VoxelCat = () => {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-          camera.position.y = 10
+          camera.position.y = 8 
           camera.position.x =
             p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
           camera.position.z =
