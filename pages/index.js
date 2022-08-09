@@ -96,7 +96,7 @@ export default function Page() {
                     </Link>
                         , Playing Piano,
                     { ' ' }
-                    <Link target='_blank' color={useColorModeValue('blue.500', 'rgb(255,99,195)')} href="https://www.instagram.com/stories/highlights/17924293994202831/">
+                    <Link target='_blank' color={useColorModeValue('blue.500', 'rgb(255,99,195)')} href="https://wlgnstla.tumblr.com/">
                     Drawing
                         </Link>
                     , Games,
