@@ -73,7 +73,7 @@ const VoxelCat = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/cat.glb', {
+      loadGLTFModel(scene, '/cat1.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
