@@ -16,4 +16,4 @@ You can create your own homepage using my template by forking this project under
 - Add a link to my <a href="https://www.jeehoonsim.me/">homepage</a>.
 - Do NOT use my 3D cat model. 
 </br>
-Check out LICENSE for more detail.
+Check out <a href="https://github.com/wlgnstla/jeehoons-homepage/blob/main/LICENSE">LICENSE</a> for more detail.
