@@ -6,3 +6,14 @@ https://www.jeehoonsim.me/
 - <a href='https://chakra-ui.com/'>Chakra UI</a> - A simple, modular and accessible component library.
 - <a href='https://www.framer.com/motion/'>Framer Motion</a> - A production-ready motion library for React.
 - <a href='https://threejs.org/'>Three.js</a> - A cross-browser JavaScript library used to create and display animated 3D computer graphics in a web browser.
+
+## License
+
+MIT License.
+
+You can create your own homepage for free by forking this project under the following conditions:
+
+- Add a link to my <a href="https://www.jeehoonsim.me/">homepage</a>.
+- Do NOT use my 3D cat model. 
+</br>
+Check out LICENSE for more detail.
