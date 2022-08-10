@@ -11,7 +11,7 @@ https://www.jeehoonsim.me/
 
 MIT License.
 
-You can create your own homepage for free by forking this project under the following conditions:
+You can create your own homepage using my template by forking this project under the following conditions:
 
 - Add a link to my <a href="https://www.jeehoonsim.me/">homepage</a>.
 - Do NOT use my 3D cat model. 
