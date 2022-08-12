@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/simple-grid'
 import thumbKitsune from '../public/images/works/kitsune-pet-thumbnail.png'
 import thumbReposStars from '../public/images/works/repos-stars-thumbnail.png'
 import thumbWeatherApp from '../public/images/works/weather-app-thumbnail.png'
+import thumbPokedex from '../public/images/works/pokedex-thumb.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -26,6 +27,11 @@ const Works = () => {
         <Section>
           <WorkGridItem id='weather-app' title="Weather App" thumbnail={thumbWeatherApp}>
           A minimalistic app that displays the city&apos;s current weather and image. 
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id='pokedex' title="Pokédex" thumbnail={thumbPokedex}>
+             A device that provides information regarding various species of Pokémon.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
