@@ -20,8 +20,7 @@ const Works = () => {
         </Section>
       <Section>
         <WorkGridItem id='repos-etoile' title="Repos Étoile" thumbnail={thumbReposStars}>
-          A search engine that categorizes popular GitHub repositories
-          by programming langauges.
+          A search engine that categorizes popular GitHub repositories.
         </WorkGridItem>
       </Section>
         <Section>
