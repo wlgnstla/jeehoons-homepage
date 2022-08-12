@@ -16,10 +16,10 @@ export default function Page() {
 
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1} >
-                    <Heading mb={2} as='h2' variant='page-title'>
+                    <Heading as='h2' variant='page-title'>
                         Jeehoon Sim
                     </Heading>
-                    <p>Digital Craftzman ( Artist / Developer / Designer ) </p>
+                    <p>Software Engineer ( Artist / Developer / Content Creator ) </p>
                 </Box>
                 <Box flexShrink={0}
                     mt={{base:4, md:0}}
@@ -38,7 +38,7 @@ export default function Page() {
                 </Box>
             </Box>
             <Section delay={0.1}>
-            <Heading fontSize='1.5em' mb={2} as='h3' variant='section-title'>
+            <Heading  mb={4} as='h3' variant='section-title'>
                 Work 
             </Heading>
                 <Paragraph> 
@@ -65,7 +65,7 @@ export default function Page() {
             </Section>
             
             <Section delay={0.2}>
-                <Heading fontSize='1.5em' mb={2} as='h3' varaint='section-title'>
+            <Heading mb={4} as='h3' variant='section-title'>
                     Bio
                 </Heading>
                 <BioSection>
@@ -85,7 +85,7 @@ export default function Page() {
             </Section>
 
             <Section delay={0.3}>
-                <Heading fontSize='1.5em' as='h3' variant='section-title'>
+                <Heading mb={4} as='h3' variant='section-title'>
                     I ♥ 
                 </Heading>
                 <Paragraph>
@@ -108,7 +108,7 @@ export default function Page() {
             </Section>
 
             <Section delay={0.4}>
-                <Heading fontSize='1.5em' as='h3' variant='section-title'>
+                <Heading mb={4} as='h3' variant='section-title'>
                     On the web
                 </Heading>
                 <List>
