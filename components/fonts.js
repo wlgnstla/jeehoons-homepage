@@ -1,5 +1,3 @@
-import { Global } from '@emotion/react'
-
 const Fonts = () => {
     return(
         <style jsx global>{
