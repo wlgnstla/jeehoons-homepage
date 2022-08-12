@@ -23,7 +23,7 @@ const Work = () => {
         <ListItem>
       <Meta>Website</Meta>
       <Link target='_blank' href="https://pokedex-wlgnstla.vercel.app/">
-      Gotta Catch 'Em All! <ExternalLinkIcon mx='2px'/>
+      Gotta Catch &apos;Em All! <ExternalLinkIcon mx='2px'/>
       </Link>
         </ListItem>
         <ListItem>
