@@ -17,7 +17,7 @@ export default function Page() {
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1} >
                     <Heading as='h2' variant='page-title'>
-                        Jeehoon Sim
+                        Jeehoon Sim🎋
                     </Heading>
                     <p>Software Engineer ( Artist / Developer / Content Creator ) </p>
                 </Box>
