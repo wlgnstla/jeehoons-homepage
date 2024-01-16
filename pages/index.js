@@ -43,7 +43,7 @@ export default function Page() {
             </Heading>
                 <Paragraph> 
                     Jeehoon is a freelance and full-stack developer
-                    based in Chicago with a passion for building stuff
+                    based in Michigan with a passion for building stuff
                     he wants. He has a knack for all things launching products,
                     from planning and designing all the way to solving real-life problems
                     with code. When away from the computer, he loves spending time
