@@ -1,4 +1,4 @@
-import { extendTheme } from '@chakra-ui/react'
+import { extendTheme, textDecoration } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
 const styles = {
@@ -17,21 +17,20 @@ const components = {
         fontSize: 20,
         textUnderlineOffset: 6,
         textDecorationColor: '#525252',
-        textDecorationThickness: 4,
+        textDecorationThickness: 4
       }
     }
   }
-  }
+}
 
 const fonts = {
   heading: "'M PLUS Rounded 1c'"
 }
-
 
 const config = {
   initialColorMode: 'light',
   useSystemColorMode: true
 }
 
-const theme = extendTheme({ config, styles, components, fonts})
+const theme = extendTheme({ config, styles, components, fonts })
 export default theme

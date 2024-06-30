@@ -4,6 +4,7 @@ import {
   Link,
   Container,
   Button,
+  Text,
   Icon,
   Box,
   Heading,
@@ -28,13 +29,13 @@ export default function Page() {
           p={3}
           align="center"
         >
-          Hi, I&apos;m a Full Stack Developer based in Michigan! 🏙
+          Hi, I&apos;m a Full Stack Developer based in Michigan!
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Jeehoon Sim🎋
+              Jeehoon Sim
             </Heading>
             <p>Software Engineer ( Artist / Developer / Content Creator ) </p>
           </Box>
@@ -58,14 +59,15 @@ export default function Page() {
         </Box>
         <Section delay={0.1}>
           <Heading mb={4} as="h3" variant="section-title">
-            Work
+            About Me
           </Heading>
           <Paragraph>
-            Jeehoon is a freelance and full-stack developer based in Michigan
-            with a passion for building stuff he wants. He has a knack for all
-            things launching products, from planning and designing all the way
-            to solving real-life problems with code. When away from the
-            computer, he loves spending time with friends and family.
+            Hi, I'm Jeehoon, a freelance full-stack developer based in Michigan.
+            I have a passion for creating innovative solutions and enjoy
+            building things I want. My experience spans across various aspects
+            of product development, from planning and designing to coding and
+            solving real-life problems. When I'm not at the computer, I love
+            spending quality time with friends and family.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -81,39 +83,35 @@ export default function Page() {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2001</BioYear>
-            Born in Busan (부산), South Korea 🏖️
-          </BioSection>
-          <BioSection>
             <BioYear>2024</BioYear>
-            Graduated with a Bachelor of Science in Engineering (B.S.E.) in the
-            College of Engineering at the University of Michigan 〽️
+            Completed a {''}
+            <Link
+              target="_blank"
+              color={useColorModeValue('blue.500', 'rgb(255,99,195')}
+              href="https://cse.engin.umich.edu/"
+            >
+              Computer Science B.S.E.
+            </Link>
+            at the College of Engineering at the University of Michigan-Ann
+            Arbor 〽️
           </BioSection>
           <BioSection>
-            <BioYear>Present</BioYear>
-            Working as a freelancer ✨
+            <BioYear>2024 to present</BioYear>
+            Working as a freelancer and full-stack developer
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading mb={4} as="h3" variant="section-title">
-            I ♥
+            I Love
           </Heading>
           <Paragraph>
-            Reading, Music,{' '}
-            <Link
-              color={useColorModeValue('blue.500', 'rgb(225,99,195)')}
-              target="_blank"
-              href="https://jeehoonsim.wordpress.com/"
-            >
-              Writing
-            </Link>
-            , Playing Piano,{' '}
+            Reading, Music, Piano,{' '}
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
               href="https://wlgnstla.tumblr.com/"
             >
-              Drawing
+              Drawing & Writing
             </Link>
             , Games,{' '}
             <Link
@@ -123,7 +121,6 @@ export default function Page() {
             >
               Photography
             </Link>
-            .
           </Paragraph>
         </Section>
 
@@ -132,6 +129,17 @@ export default function Page() {
             On the web
           </Heading>
           <List>
+            <ListItem>
+              <Link target="_blank" href="https://www.youtube.com/@wlgnstla">
+                <Button
+                  colorScheme="teal"
+                  variant="ghost"
+                  leftIcon={<Icon as={IoLogoYoutube} />}
+                >
+                  @wlgnstla
+                </Button>
+              </Link>
+            </ListItem>
             <ListItem>
               <Link target="_blank" href="https://github.com/wlgnstla">
                 <Button
@@ -154,20 +162,6 @@ export default function Page() {
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
                   Jeehoon Sim
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link
-                target="_blank"
-                href="https://www.youtube.com/channel/UCyA8NILzpi30Ib9bd7XgN3g"
-              >
-                <Button
-                  colorScheme="teal"
-                  variant="ghost"
-                  leftIcon={<Icon as={IoLogoYoutube} />}
-                >
-                  @wlgnstla
                 </Button>
               </Link>
             </ListItem>
