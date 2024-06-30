@@ -61,12 +61,12 @@ export default function Page() {
             About Me
           </Heading>
           <Paragraph>
-            Hi, I'm Jeehoon, a freelance full-stack developer based in Michigan.
-            I have a passion for creating innovative solutions and enjoy
-            building things I want. My experience spans across various aspects
-            of product development, from planning and designing to coding and
-            solving real-life problems. When I'm not at the computer, I love
-            spending quality time with friends and family.
+            Hi, I&apos;m Jeehoon, a freelance full-stack developer based in
+            Michigan. I have a passion for creating innovative solutions and
+            enjoy building things I want. My experience spans across various
+            aspects of product development, from planning and designing to
+            coding and solving real-life problems. When I&apos;m not at the
+            computer, I love spending quality time with friends and family.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
