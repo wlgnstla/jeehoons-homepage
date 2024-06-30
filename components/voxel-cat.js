@@ -34,7 +34,6 @@ const VoxelCat = () => {
     }
   }, [renderer])
 
-
   useEffect(() => {
     const { current: container } = refContainer
     if (container && !renderer) {
@@ -52,7 +51,7 @@ const VoxelCat = () => {
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.0035 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -90,9 +89,9 @@ const VoxelCat = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
+          const rotSpeed = -easeOutCirc(frame / 120) * 2.3 * 20
 
-          camera.position.y = 10 
+          camera.position.y = 8
           camera.position.x =
             p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
           camera.position.z =
@@ -120,9 +119,7 @@ const VoxelCat = () => {
   }, [renderer, handleWindowResize])
 
   return (
-  <CatContainer ref={refContainer}>
-    {loading && <CatSpinner/>}
-  </CatContainer>
+    <CatContainer ref={refContainer}>{loading && <CatSpinner />}</CatContainer>
   )
 }
 
