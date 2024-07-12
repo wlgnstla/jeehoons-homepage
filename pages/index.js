@@ -36,7 +36,7 @@ export default function Page() {
             <Heading as="h2" variant="page-title">
               Jeehoon Sim
             </Heading>
-            <p>Software Engineer ( Artist / Developer / Content Creator ) </p>
+            <p> Software Engineer ( Artist / Developer / Content Creator ) </p>
           </Box>
           <Box
             flexShrink={0}
@@ -51,7 +51,7 @@ export default function Page() {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/infinite.png"
+              src="/images/puter.jpg"
               alt="Profile Image"
             />
           </Box>
