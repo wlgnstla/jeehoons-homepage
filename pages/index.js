@@ -108,9 +108,9 @@ export default function Page() {
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
-              href="https://wlgnstla.tumblr.com/"
+              href="https://haru-sari.tumblr.com/"
             >
-              Drawing & Writing
+              Drawing
             </Link>
             , Games,{' '}
             <Link
