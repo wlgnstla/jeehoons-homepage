@@ -116,7 +116,7 @@ export default function Page() {
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
-              href="https://500px.com/p/wlgnstla?view=photos"
+              href="https://www.flickr.com/photos/201195786@N08/"
             >
               Photography
             </Link>
