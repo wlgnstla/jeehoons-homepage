@@ -57,9 +57,14 @@ export default function Page() {
           </Box>
         </Box>
         <Section delay={0.1}>
-          <Heading mb={4} as="h3" variant="section-title">
-            About
-          </Heading>
+          <div style={{ display: 'flex' }}>
+            <div>
+              <Heading mb={4} as="h3" variant="section-title">
+                About
+              </Heading>
+            </div>
+            <span className="section-emoji">🎋</span>
+          </div>
           <Paragraph>
             Hi, I&apos;m Jeehoon, a freelance full-stack developer based in
             Michigan. I have a passion for creating innovative solutions and
@@ -78,9 +83,14 @@ export default function Page() {
         </Section>
 
         <Section delay={0.2}>
-          <Heading mb={4} as="h3" variant="section-title">
-            Bio
-          </Heading>
+          <div style={{ display: 'flex' }}>
+            <div>
+              <Heading mb={4} as="h3" variant="section-title">
+                Bio
+              </Heading>
+            </div>
+            <span className="section-emoji">🌸</span>
+          </div>
           <BioSection>
             <BioYear>2024</BioYear>
             Completed the Computer Science B.S.E. in the College of Engineering
@@ -92,9 +102,12 @@ export default function Page() {
           </BioSection>
         </Section>
         <Section delay={0.3}>
-          <Heading mb={4} as="h3" variant="section-title">
-            I Love
-          </Heading>
+          <div style={{ display: 'flex' }}>
+            <Heading mb={4} as="h3" variant="section-title">
+              I Love
+            </Heading>
+            <span className="section-emoji">🎏</span>
+          </div>
           <Paragraph>
             Reading,{' '}
             <Link
@@ -104,15 +117,7 @@ export default function Page() {
             >
               Memes
             </Link>
-            , Art,{' '}
-            <Link
-              target="_blank"
-              color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
-              href="https://haru-sari.tumblr.com/"
-            >
-              Drawing
-            </Link>
-            , Games, Music,{' '}
+            , Art, Games, Music,{' '}
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
@@ -124,9 +129,12 @@ export default function Page() {
         </Section>
 
         <Section delay={0.4}>
-          <Heading mb={4} as="h3" variant="section-title">
-            On the web
-          </Heading>
+          <div style={{ display: 'flex' }}>
+            <Heading mb={4} as="h3" variant="section-title">
+              On the web
+            </Heading>
+            <span className="section-emoji">🕸️</span>
+          </div>
           <List>
             <ListItem>
               <Link target="_blank" href="https://github.com/wlgnstla">

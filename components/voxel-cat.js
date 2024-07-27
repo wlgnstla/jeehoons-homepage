@@ -51,7 +51,7 @@ const VoxelCat = () => {
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
-      const scale = scH * 0.0035 + 4.8
+      const scale = scH * 0.0035 + 6.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
