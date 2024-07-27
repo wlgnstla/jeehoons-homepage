@@ -96,6 +96,7 @@ export default function Page() {
             I Love
           </Heading>
           <Paragraph>
+            Reading,{' '}
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
@@ -111,15 +112,7 @@ export default function Page() {
             >
               Drawing
             </Link>
-            , Reading,{' '}
-            <Link
-              target="_blank"
-              color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
-              href="https://www.youtube.com/@__shiki__"
-            >
-              Games
-            </Link>
-            , Music,{' '}
+            , Games, Music,{' '}
             <Link
               target="_blank"
               color={useColorModeValue('blue.500', 'rgb(255,99,195)')}
