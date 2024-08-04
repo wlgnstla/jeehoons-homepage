@@ -8,7 +8,7 @@ const LogoBox = styled.span`
   font-size: 18px;
   display: inline-flex;
   align-items: center;
-  height: 60px;
+  height: 30px;
   line-height: 20px;
   padding: 10px;
   transition: transform 03s ease-in-out;
