@@ -92,12 +92,12 @@ export default function Page() {
             <span className="section-emoji">🌸</span>
           </div>
           <BioSection>
-            <BioYear>2026</BioYear>
+            <BioYear>2024</BioYear>
             Completed the Computer Science B.S.E. in the College of Engineering
             at the University of Michigan—Ann Arbor 〽️
           </BioSection>
           <BioSection>
-            <BioYear>2026 to present</BioYear>
+            <BioYear>2024 to present</BioYear>
             Working as a freelancer and full-stack developer
           </BioSection>
         </Section>
