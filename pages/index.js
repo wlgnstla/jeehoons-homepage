@@ -97,8 +97,8 @@ export default function Page() {
             at the University of Michigan—Ann Arbor 〽️
           </BioSection>
           <BioSection>
-            <BioYear>2024 to present</BioYear>
-            Working as a freelancer and full-stack developer
+            <BioYear>2026 to present</BioYear>
+            Working as a Systems Engineer at LG Energy Solution
           </BioSection>
         </Section>
         <Section delay={0.3}>
